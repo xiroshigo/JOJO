@@ -1,6 +1,6 @@
 from gpytranslate import Translator
 from telethon import TelegramClient, events, sync 
-
+import asyncio 
 
 @events.register(events.NewMessage(pattern=".18+"))
 
