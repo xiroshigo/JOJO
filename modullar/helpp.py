@@ -7,7 +7,7 @@ botClient = modullar.client.botClient
 async def _(query):
 				if query.text == "ppphelp":
 								result = query.builder.article('ppphelp', text = """
-🛠 **Umumiy modullar**: 28
+🛠 **Umumiy modullar**: 29
 ⚒ **Berkitilgan modullar**:  0
 
 🏙 **Tezlik**: ping.
@@ -51,7 +51,7 @@ async def _(query):
 async def uzgaruvchi(event):
 				
 				if event.data==b'1':
-								await event.answer("JOJO | USERBOT - 1.0.1.2v \nHavfsiz Userbot\nserverga ulangamagan juda oddiy yuserbot\nha 4 kun ichida yangilanib turadi\ndasturchi: @red_uzbek\nmaqsad: Insonlarga telegramda oz boʻlsa da yordam berish", alert=True)
+								await event.answer("JOJO | USERBOT - 1.0.1.4v \nHavfsiz Userbot\nserverga ulangamagan juda oddiy yuserbot\nha 4 kun ichida yangilanib turadi\ndasturchi: @red_uzbek\nmaqsad: Insonlarga telegramda oz boʻlsa da yordam berish", alert=True)
 
 @events.register(events.NewMessage(pattern=".help", outgoing=True))
 async def help(event):
