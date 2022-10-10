@@ -47,7 +47,7 @@ async def _(query):
 async def uzgaruvchi(event):
 				
 				if event.data==b'1':
-								await event.answer("JOJO | USERBOT - 1.0.1.2v \nHavfsiz Userbot\nserverga ulangamagan juda oddiy yuserbot\nhar 4 kun ichida yangilanib turadi\ndasturchi: @red_uzbek\nmaqsad: Insonlarga telegramda oz boʻlsa da yordam berish", alert=True)
+								await event.answer("JOJO | USERBOT - 1.0.1.4v \nHavfsiz Userbot\nserverga ulangamagan juda oddiy yuserbot\nhar 4 kun ichida yangilanib turadi\ndasturchi: @red_uzbek\nmaqsad: Insonlarga telegramda oz boʻlsa da yordam berish", alert=True)
 
 @events.register(events.NewMessage(pattern=".ahelp"))
 async def ahelp(event):
