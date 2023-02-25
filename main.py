@@ -50,7 +50,7 @@ print("""\033[1;32m
 #
 client = modullar.client.client
 #bot
-botClient = modullar.client.botClient
+#botClient = modullar.client.botClient
 
 #spam
 with client as darknet:
