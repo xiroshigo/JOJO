@@ -271,7 +271,7 @@ with client as darknet:
 
 loop = asyncio.get_event_loop()
 client.start()
-botClient.start()
+#botClient.start()
 os.system("clear")
 print("""\033[1;33m
  ▄▄▄██▀▀▀▒█████   ▄▄▄██▀▀▀▒█████  
